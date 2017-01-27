@@ -16,64 +16,77 @@
         <h1>Welcome to Pietro's Pizza</h1>
         <p>Congratulations, you've found the best place on the interwebs to order pizza.</p>
       </div>
-      <h1 id='header'>Order your perfect pie</h1>
-      <div class="row">
-        <form id="orderForm">
-          <div class="col-md-6">
-            <h3>Select your size</h3>
-            <input type="radio" name="size" value= "1">small<br>
-            <input type="radio" name="size" value= "2">Medium<br>
-            <input type="radio" name="size" value= "3">LARGE<br>
-            <h3>Toppings</h3>
-            <div id='toppings'>
-              <input type="checkbox" name="topping" value="cheese">Cheese<br>
-              <input type="checkbox" name="topping" value="extra-cheese">Extra Cheese<br>
-              <input type="checkbox" name="topping" value="cheese-is-life">Cheese is life<br>
-              <input type="checkbox" name="topping" value="pineapple">Pineapple<br>
-              <input type="checkbox" name="topping" value="canadian-bacon">Canadian Bacon<br>
-              <input type="checkbox" name="topping" value="pepperoni">Pepperoni<br>
-              <input type="checkbox" name="topping" value="sausage">Sausage<br>
-              <input type="checkbox" name="topping" value="sriracha-chicken">Sriracha Chicken<br>
-              <input type="checkbox" name="topping" value="onions">Onions<br>
-              <input type="checkbox" name="topping" value="bell-peppers">Bell Peppers<br>
-              <input type="checkbox" name="topping" value="random">Random<br>
+      <form id="orderForm">
+        <div class="row">
+          <div class='well'>
+            <h2 id='header'>Order your perfect pie</h2>
+            <div class="col-md-6">
+              <h3>Select your size</h3>
+              <input type="radio" name="size" value= "1">small<br>
+              <input type="radio" name="size" value= "2">Medium<br>
+              <input type="radio" name="size" value= "3">LARGE<br>
             </div>
-            <button type="submit" class="btn">Order!</button>
-            <button type="button" id="second-pie-form">Double the fun?</button>
+            <div class='col-md-6'>
+              <h3>Toppings</h3>
+              <div id='toppings'>
+                <input type="checkbox" name="topping" value="cheese">Cheese<br>
+                <input type="checkbox" name="topping" value="extra-cheese">Extra Cheese<br>
+                <input type="checkbox" name="topping" value="cheese-is-life">Cheese is life<br>
+                <input type="checkbox" name="topping" value="pineapple">Pineapple<br>
+                <input type="checkbox" name="topping" value="canadian-bacon">Canadian Bacon<br>
+                <input type="checkbox" name="topping" value="pepperoni">Pepperoni<br>
+                <input type="checkbox" name="topping" value="sausage">Sausage<br>
+                <input type="checkbox" name="topping" value="sriracha-chicken">Sriracha Chicken<br>
+                <input type="checkbox" name="topping" value="onions">Onions<br>
+                <input type="checkbox" name="topping" value="bell-peppers">Bell Peppers<br>
+                <input type="checkbox" name="topping" value="random">Random<br>
+              </div>
+            </div>
+            <button type="submit" class="btn" id="buttonOne">Place Order!</button>
+            <button type="button" class="btn" id="second-pie-form">Double the fun?</button>
           </div>
-          <div class="col-md-6" id="secondPie">
+        <div class="row" id="secondPie">
+          <div class="well">
             <h2>Perfect pie X2</h2>
-            <h3>Select your size</h3>
-            <input type="radio" name="size-two" value= "1">small<br>
-            <input type="radio" name="size-two" value= "2">Medium<br>
-            <input type="radio" name="size-two" value= "3">LARGE<br>
-            <h3>Toppings</h3>
-            <div id='toppings'>
-              <input type="checkbox" name="topping-two" value="cheese">Cheese<br>
-              <input type="checkbox" name="topping-two" value="extra-cheese">Extra Cheese<br>
-              <input type="checkbox" name="topping-two" value="cheese-is-life">Cheese is life<br>
-              <input type="checkbox" name="topping-two" value="pineapple">Pineapple<br>
-              <input type="checkbox" name="topping-two" value="canadian-bacon">Canadian Bacon<br>
-              <input type="checkbox" name="topping-two" value="pepperoni">Pepperoni<br>
-              <input type="checkbox" name="topping-two" value="sausage">Sausage<br>
-              <input type="checkbox" name="topping-two" value="sriracha-chicken">Sriracha Chicken<br>
-              <input type="checkbox" name="topping-two" value="onions">Onions<br>
-              <input type="checkbox" name="topping-two" value="bell-peppers">Bell Peppers<br>
-              <input type="checkbox" name="topping-two" value="random">Random<br>
+            <div class="row">
+              <div class="col-md-6">
+                <h3>Select your size</h3>
+                <input type="radio" name="size-two" value= "1">small<br>
+                <input type="radio" name="size-two" value= "2">Medium<br>
+                <input type="radio" name="size-two" value= "3">LARGE<br>
+              </div>
+              <div class="col-md-6">
+                <h3>Toppings</h3>
+                <div id='toppings'>
+                  <input type="checkbox" name="topping-two" value="cheese">Cheese<br>
+                  <input type="checkbox" name="topping-two" value="extra-cheese">Extra Cheese<br>
+                  <input type="checkbox" name="topping-two" value="cheese-is-life">Cheese is life<br>
+                  <input type="checkbox" name="topping-two" value="pineapple">Pineapple<br>
+                  <input type="checkbox" name="topping-two" value="canadian-bacon">Canadian Bacon<br>
+                  <input type="checkbox" name="topping-two" value="pepperoni">Pepperoni<br>
+                  <input type="checkbox" name="topping-two" value="sausage">Sausage<br>
+                  <input type="checkbox" name="topping-two" value="sriracha-chicken">Sriracha Chicken<br>
+                  <input type="checkbox" name="topping-two" value="onions">Onions<br>
+                  <input type="checkbox" name="topping-two" value="bell-peppers">Bell Peppers<br>
+                  <input type="checkbox" name="topping-two" value="random">Random<br>
+                </div>
+              </div>
+              <button type="submit" class="btn" id="buttonTwo">Place Order!</button>
             </div>
           </div>
+        </div>
         </form>
       </div>
-      <div class="showPrice">
+      <div class="well showPrice">
         <h3>Your total is:<span id="total-price"></span></h3>
         <form>
           <label>Enter your address for delivery</label>
-          <input type="text" placeholder="your address here">
+          <input type="text" placeholder="your address here" id="address">
           <button type="button" id="address-button" class="btn">submit</button>
-        </form>
       </div>
+    </form>
       <div id="gif">
-        <h1>PIZZA IS ON ITS WAY</h1><br>
+        <h1 class="blink">PIZZA IS ON ITS WAY!!!!!</h1><br>
         <img src="https://media.giphy.com/media/3o7TKJwsoLn5QAmqw8/source.gif" alt="piiz cat dj gif">
       </div>
     </div>
