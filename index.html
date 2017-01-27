@@ -17,16 +17,14 @@
         <p>Congratulations, you've found the best place on the interwebs to order pizza.</p>
       </div>
       <form id="orderForm">
+        <div class="col-md-6">
         <div class="row">
           <div class='well'>
             <h2 id='header'>Order your perfect pie</h2>
-            <div class="col-md-6">
               <h3>Select your size</h3>
               <input type="radio" name="size" value= "1">small<br>
               <input type="radio" name="size" value= "2">Medium<br>
               <input type="radio" name="size" value= "3">LARGE<br>
-            </div>
-            <div class='col-md-6'>
               <h3>Toppings</h3>
               <div id='toppings'>
                 <input type="checkbox" name="topping" value="cheese">Cheese<br>
@@ -40,22 +38,20 @@
                 <input type="checkbox" name="topping" value="onions">Onions<br>
                 <input type="checkbox" name="topping" value="bell-peppers">Bell Peppers<br>
                 <input type="checkbox" name="topping" value="random">Random<br>
-              </div>
             </div>
             <button type="submit" class="btn" id="buttonOne">Place Order!</button>
             <button type="button" class="btn" id="second-pie-form">Double the fun?</button>
           </div>
+        </div>
+      </div>
+          <div class="col-md-6">
         <div class="row" id="secondPie">
-          <div class="well">
+          <div class="well" id="thisOne">
             <h2>Perfect pie X2</h2>
-            <div class="row">
-              <div class="col-md-6">
                 <h3>Select your size</h3>
                 <input type="radio" name="size-two" value= "1">small<br>
                 <input type="radio" name="size-two" value= "2">Medium<br>
                 <input type="radio" name="size-two" value= "3">LARGE<br>
-              </div>
-              <div class="col-md-6">
                 <h3>Toppings</h3>
                 <div id='toppings'>
                   <input type="checkbox" name="topping-two" value="cheese">Cheese<br>
@@ -70,7 +66,6 @@
                   <input type="checkbox" name="topping-two" value="bell-peppers">Bell Peppers<br>
                   <input type="checkbox" name="topping-two" value="random">Random<br>
                 </div>
-              </div>
               <button type="submit" class="btn" id="buttonTwo">Place Order!</button>
             </div>
           </div>
@@ -78,7 +73,7 @@
         </form>
       </div>
       <div class="well showPrice">
-        <h3>Your total is:<span id="total-price"></span></h3>
+        <h3>Your total is:<span id="total-price"></span><br> We will collect payment uppon delivery.</h3>
         <form>
           <label>Enter your address for delivery</label>
           <input type="text" placeholder="your address here" id="address">

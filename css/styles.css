@@ -13,15 +13,17 @@ body {
 .well {
   background-color:rgba(50, 20, 0, 0.6);
   color: white;
+  display: inline-block;
+  text-align: left;
 }
 
 .btn {
   color: black;
 }
 
-#header {
-  margin-top: 0px;
-  margin-bottom: 30px;
+.row {
+  display: inline-block;
+  text-align: left;
 }
 
 .showPrice {
@@ -31,6 +33,10 @@ body {
 
 #secondPie {
   display: none;
+}
+
+#thisOne {
+    padding-right: 100px;
 }
 
 #buttonTwo {
