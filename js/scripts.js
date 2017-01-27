@@ -47,9 +47,16 @@ $(document).ready(function() {
 
     $('#orderForm').hide();
     $('.showPrice').show();
+    $('#header').hide();
   });
+
   $('#second-pie-form').click(function(){
     $('#secondPie').toggle();
+  });
+
+  $('#address-button').click(function(){
+    $('#gif').show();
+    $('.showPrice').hide();
   });
 
 
