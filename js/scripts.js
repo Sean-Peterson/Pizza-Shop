@@ -48,6 +48,7 @@ $(document).ready(function() {
     $('#orderForm').hide();//hide the orderForm
     $('.showPrice').show();//shows the element where the price is displayed
     $('#header').hide();//hides the header
+    $('.jumbotron').hide();//hides the jumbotron
   });
   //Toggles display of the form for the second pizza
   $('#second-pie-form').click(function(){
