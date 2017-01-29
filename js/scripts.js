@@ -16,8 +16,7 @@ var add = function(n1,n2) {
 $(document).ready(function() {
   $('#orderForm').submit(function(event) {
     event.preventDefault();
-
-
+    
     //Get toppings from form checkboxes for customPizza
     var toppings = []
     $("input:checkbox[name=topping]:checked").each(function(){
@@ -36,7 +35,7 @@ $(document).ready(function() {
       toppingsTwo.push(pizzaToppingTwo);
     });
     var size = $('input[name=size-two]:checked').val();//Size value for new PizzaPieTwo
-    var customPizzaTwo = new PizzaPie(size, toppings);//create new object for second PizzaPie
+    var customPizzaTwo = new PizzaPie(size, toppingsTwo);//create new object for second PizzaPie
     var priceTwo = customPizzaTwo.price();//set a variable to the price of customPizzaTwo
     //logic that decides how to calculate and display price
     if (customPizzaTwo.price() > 0){
